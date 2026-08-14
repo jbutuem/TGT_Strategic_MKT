@@ -83,26 +83,25 @@ O botão **Camada neuro** abre, na margem de cada tela, o princípio que sustent
 
 ## Estrutura
 
-| # | Capítulo | Função |
-|---|---|---|
-| 00 | Capa | tese em três linhas |
-| 01 | O filme | movimento antes do argumento (Vimeo `1088705362`) |
-| 02 | A pergunta | abre o loop que só fecha no cap. 14 |
-| 03 | O terreno | fluência · exposição · memória |
-| 04 | O problema | fragmentação como carga cognitiva |
-| 05 | Manifesto | identidade e tom de voz do brand guideline |
-| 06 | Como fazemos | CX · Entregas · Eficiência |
-| 07 | A arquitetura | Estratégia → Execução → Ativação |
-| 08 | O escopo | 7 frentes de serviço |
-| 09 | Os números | 8 KPIs medidos no HUB |
-| 09.1 | Onde vai o tempo | horas por disciplina |
-| 10 | O HUB | o processo disruptivo, aberto por dentro |
-| 11 | Criação × aplicação | a régua com base em literatura |
-| 12 | O trabalho | esteira de portfólio (pico visual) |
-| 13 | Quem confia | logos + Google Partner (fundo escuro: os logos da carteira são brancos com fundo transparente) |
-| 13.5 | A virada | tela vermelha isolada |
-| 14 | O blueprint | a revelação — fecha o loop |
-| 15 | O convite | pergunta, não proposta |
+---
+
+## Revisão de UX / UI e neuromarketing
+
+Auditoria feita medindo no navegador, não a olho. O que mudou:
+
+**Tipografia.** Havia oito elementos entre 10 e 11 px e corpo em peso 300 sobre fundo escuro — em tela escura a halação afina o traço e peso 300 vira cinza. Piso novo: **15 px no corpo, 12 px em rótulo, peso 400 em tudo.** Nenhum tipo abaixo de 12 px na superfície.
+
+**Contraste.** O vermelho da marca (`#ED1C24`) sobre o preto institucional dá **3,7:1** — reprova em texto pequeno pela WCAG AA. Entrou `--red-lt` (`#FF5A61`, **5,3:1**) só para tipo miúdo; o vermelho puro segue nos números grandes e nas áreas de cor, onde 3,7:1 basta. A palavra-chave em vermelho no topo de cada capítulo virou creme com marcador vermelho.
+
+**Alvos de toque.** Os links de contato tinham 19 px de altura. Todos passaram para **48 px**; o botão da camada neuro, para 44 px. Zero alvos abaixo do mínimo em qualquer largura de celular.
+
+**Conteúdo: de 1.884 para 1.358 palavras (−28%), 8,4 → 6,8 min.**
+- **Capítulo 07 (Estratégia → Execução → Ativação) saiu.** Era o trecho mais genérico do deck e repetia o escopo. Virou uma linha na abertura do capítulo seguinte.
+- **As citações acadêmicas saíram da superfície** e foram para a camada neuro. Elas custavam fluência — justo o que o deck afirma otimizar — e eram o menor tipo da página. Contradição interna resolvida: quem quiser a fonte liga a camada.
+- Todo parágrafo foi reduzido a no máximo três linhas.
+- A lista de 15 clientes virou 8 nomes + "e mais 17 contas".
+
+**Larguras testadas:** 320 · 360 · 390 · 430 · 768 · 1440 · 1920, com a camada neuro ligada e desligada. Zero overflow, zero corte.
 
 ---
 
