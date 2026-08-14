@@ -1,4 +1,0 @@
-# Deck comercial TGT — link enviado a prospects, fora do índice de busca.
-# Para tornar público, troque para "Allow: /" e remova a meta robots do index.html.
-User-agent: *
-Disallow: /
