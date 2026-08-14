@@ -71,7 +71,7 @@ O botão **Camada neuro** abre, na margem de cada tela, o princípio que sustent
 | 10 | O HUB | o processo disruptivo, aberto por dentro |
 | 11 | Criação × aplicação | a régua com base em literatura |
 | 12 | O trabalho | esteira de portfólio (pico visual) |
-| 13 | Quem confia | logos + Google Partner |
+| 13 | Quem confia | logos + Google Partner (fundo escuro: os logos da carteira são brancos com fundo transparente) |
 | 13.5 | A virada | tela vermelha isolada |
 | 14 | O blueprint | a revelação — fecha o loop |
 | 15 | O convite | pergunta, não proposta |
@@ -142,6 +142,13 @@ Baixa tudo para `./assets`, reescreve os caminhos no `index.html` e guarda backu
 - **Imprime.** `Ctrl/⌘ + P` gera um capítulo por página, sem trilha nem botões.
 - **Acessível.** Navegação por teclado, foco visível, `alt` em imagem de conteúdo, `prefers-reduced-motion` respeitado (contadores param, esteira do portfólio vira scroll manual).
 - **Leve.** Zero JavaScript de terceiros. O player do Vimeo só entra na página quando clicado.
+
+---
+
+## Contato no deck (cap. 15)
+
+E-mail `contato@tgtstudio.com.br` · Direto **Sonia · +55 19 99163-0294** (link `wa.me/5519991630294`) · Site · Instagram.
+Para trocar, edite o bloco `.contact` no capítulo 15 — o botão "Marcar uma conversa" usa o mesmo e-mail.
 
 ---
 
