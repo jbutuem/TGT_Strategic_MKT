@@ -1,0 +1,22 @@
+# Deck comercial TGT — link enviado por WhatsApp, fora do índice de busca.
+# Os robôs de preview PRECISAM de acesso, senão o card do WhatsApp não renderiza.
+
+User-agent: facebookexternalhit
+Allow: /
+User-agent: facebookcatalog
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: TelegramBot
+Allow: /
+User-agent: Slackbot-LinkExpanding
+Allow: /
+
+# Buscadores ficam de fora para não competir com tgtstudio.com.br.
+# Para publicar de verdade: troque por "Allow: /" e remova a meta robots do index.html.
+User-agent: *
+Disallow: /
